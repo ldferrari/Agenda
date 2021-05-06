@@ -3,7 +3,7 @@ import LoginEmailInput from '../components/LoginPage/LoginEmailInput';
 import LoginSenhaInput from '../components/LoginPage/LoginSenhaInput';
 import LoginButtonEntrar from '../components/LoginPage/LoginButtonEntrar';
 import LoginButtonRegister from '../components/LoginPage/LoginButtonRegister';
-/* import marvelLogin from '../image/marvelLogin.jpg'; */
+import agendaImage from '../image/agenda.png';
 import '../css/login.css';
 
 export default function LoginPage(props) {
@@ -18,7 +18,7 @@ export default function LoginPage(props) {
         <LoginButtonRegister />
       </div>
       <div className="bodyLogin">
-      {/* <img src={ marvelLogin } /> */}
+        {<img src={ agendaImage } alt="Imagem da agenda" className="agendaImage" />}
       </div>
     </div>
   )

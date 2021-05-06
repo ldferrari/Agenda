@@ -1,0 +1,77 @@
+.agendaPage {
+  height: 100%;
+}
+
+.agendaBody {
+  background-color: #f6f6f6;
+  height: 100%;
+  padding-top: 8%;
+}
+
+.buttonGeneral {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 0 10%;
+}
+
+.buttonMenu {
+  background-color: #414141;
+  box-shadow: 7px 10px 6px rgba(0, 0, 0, 0.77);
+  border-color: transparent;
+  border-radius: 10%;
+  color: white;
+  font-family: 'RobotoCondensed Bold', sans-serif;
+  font-weight: 900;
+  font-size: 70%;
+  height: 30px;
+  text-transform: uppercase;
+  width: 20%;
+}
+
+.linetitle {
+  box-shadow: 5px 3px 3px rgb(70, 69, 69);
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  margin: 1% 5%;
+  width: 90%;
+}
+
+.titleData {
+  display: flex;
+  background-color: #4a577e;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  height: 40px;
+  width: 10%;
+}
+
+.lineAgenda {
+  box-shadow: 5px 3px 3px rgb(70, 69, 69);
+  display: flex;
+  flex-direction: row;
+  font-size: 80%;
+  height: 30px;
+  margin: 0.5% 5%;
+  width: 90%;
+}
+
+.data {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 10%;
+}
+
+.emailData {
+  width: 20%;
+}
+
+.enderecoData {
+  width: 40%;
+}

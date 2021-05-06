@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import '../css/menu.css';
+import '../css/agenda.css';
 
 export default function RoteButton(props) {
   const { rota, texto } = props;
   return (
     <Link
-      className="button-general"
+      className="buttonGeneral"
       to={ rota }
     >
-      <button className="button-menu button-search">
+      <button className="buttonMenu">
         { texto }
       </button>
     </Link>

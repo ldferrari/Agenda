@@ -84,8 +84,15 @@
   }
 
   .bodyLogin {
-    background-color: #f6f6f6;
-    height: 90%;
+    background-color: #e2e2e2;
+    height: 100%;
+  }
+
+  .agendaImage {
+    background-color: rgb(37, 37, 37);
+    box-shadow: 10px 5px 5px rgb(70, 69, 69);
+    margin-top: 5%;
+    width: 70%;
   }
 }
 

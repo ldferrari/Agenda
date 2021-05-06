@@ -2,8 +2,9 @@ import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-import agendaIDPage from './pages/AgendaIDPage';
-import agendaPage from './pages/AgendaPage';
+import AgendaRegister from './pages/AgendaRegisterPage';
+import AgendaIDPage from './pages/AgendaIDPage';
+import AgendaPage from './pages/AgendaPage';
 import ProfilePage from './pages/ProfilePage';
 import Provider from './context/Provider';
 import './App.css';
@@ -15,8 +16,9 @@ function App() {
         <Switch>
           <Route path="/login" component={ LoginPage } />
           <Route path="/register" component={ RegisterPage } />
-          <Route path="/agenda/:id" component={ agendaIDPage } />
-          <Route exact path="/agenda" component={ agendaPage } />
+          <Route path="/agenda/register" component={ AgendaRegister } />
+          <Route path="/agenda/:id" component={ AgendaIDPage } />
+          <Route exact path="/agenda" component={ AgendaPage } />
           <Route path="/profile" component={ ProfilePage } />
           <Route exact path="/" component={ () => <Redirect to="/login" /> } />
         </Switch>

@@ -9,7 +9,7 @@ export default function ButtonConfig() {
       className="link-voltar"
     >
       <button className="button-voltar">
-        <img src={ voltarButton } className="img-voltar" />
+        <img src={ voltarButton } className="img-voltar" alt="Img voltar" />
       </button>
     </Link>
   );

@@ -4,7 +4,6 @@ import RegisterEmail from '../components/RegisterPage/RegisterEmail';
 import RegisterPassword from '../components/RegisterPage/RegisterPassword';
 import RegisterButton from '../components/RegisterPage/RegisterButton';
 import ButtonLogout from '../components/ButtonLogout';
-/* import marvelMenu from '../image/marvelMenu.svg'; */
 import '../css/register.css';
 
 export default function RegisterPage(props) {
@@ -14,9 +13,6 @@ export default function RegisterPage(props) {
         <div className="leftMenu">
           <h2 className="title">Registro</h2>
         </div>
-        {/* <div className="centerMenu">
-          <img src={marvelMenu} className="marvelImage" />
-        </div> */}
         <div className="rigthMenu">
           <ButtonLogout rota="/login" texto="VOLTAR" />
         </div>

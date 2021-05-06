@@ -9,7 +9,7 @@ export default function ButtonConfig() {
       className="link-config"
     >
       <button className="button-config">
-        <img src={ configButton } className="img-config" />
+        <img src={ configButton } className="img-config" alt="Img config" />
       </button>
     </Link>
   );

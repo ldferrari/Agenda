@@ -1,7 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const router = require('./controllers/userController');
+const userRouter = require('./controllers/userController');
+const clientRouter = require('./controllers/clientController');
 const errorMiddlewares = require('./middlewares/error');
 
 const app = express();
@@ -11,7 +12,8 @@ app.use(express.static(buildPath));
 app.use(express.json());
 app.use(cors());
 
-app.use('/', router);
+app.use('/', userRouter);
+app.use('/', clientRouter);
 app.get('/', (req, res) => res.status(200).json('tudo certo'))
 app.use(errorMiddlewares);
 

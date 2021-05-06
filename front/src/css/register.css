@@ -29,17 +29,8 @@
     -webkit-text-stroke-width: 1.0px; /* largura da borda */
   }
 
-  .centerMenu {
-    width: 30%;
-  }
-
-  .marvelImage {
-    border-color: transparent;
-    width: 40%;
-  }
-
   .rigthMenu {
-    width: 35%;
+    width: auto;
   }
 
   .bodyRegistro {
@@ -116,15 +107,6 @@
     text-align: center;
     -webkit-text-stroke-color: rgb(43, 43, 43); /* cor da borda */
     -webkit-text-stroke-width: 1.0px; /* largura da borda */
-  }
-
-  .centerMenu {
-    width: 40%;
-  }
-
-  .marvelImage {
-    border-color: transparent;
-    width: 100%;
   }
 
   .rigthMenu {

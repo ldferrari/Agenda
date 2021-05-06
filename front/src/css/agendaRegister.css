@@ -1,0 +1,27 @@
+.agendaRegister {
+  background-color: #f6f6f6;
+  height: 100%;
+}
+
+.lineCadastro {
+  padding-top: 6%;
+}
+
+.labelARegistro {
+  color: #4a577e;
+  display: flex;
+  flex-direction: column;
+  font-size: 120%;
+  margin: 1% 30%;
+}
+
+.inputARegistro {
+  height: 30px;
+  font-size: 18px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.ButtonRegister {
+  margin-top: 2%;
+}
